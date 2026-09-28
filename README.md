@@ -1,4 +1,4 @@
-# Fem Player
+# Fem Player 1.0.4
 
 Медиаплеер для Windows в розово-сиреневой теме. Electron + обычный HTML/CSS/JS.
 
