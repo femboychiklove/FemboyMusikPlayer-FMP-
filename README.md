@@ -1,48 +1,49 @@
-# Fem Player 1.0.4
+<div align="center">
 
-Медиаплеер для Windows в розово-сиреневой теме. Electron + обычный HTML/CSS/JS.
+# 🎀 Fem Player
 
-![Electron](https://img.shields.io/badge/Electron-44.4.5-blue)
-![Node](https://img.shields.io/badge/Node.js-20+-green)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+**Нежный медиаплеер для музыки и видео**
 
----
+[![Electron](https://img.shields.io/badge/Electron-44-47848F?logo=electron&logoColor=white)](https://www.electronjs.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-Auth%20%2B%20Firestore-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![License](https://img.shields.io/badge/license-MIT-pink)](LICENSE)
 
-## Что умеет
-
-- MP3, WAV, OGG, FLAC, M4A, AAC, OPUS
-- MP4, MKV, WEBM, AVI, MOV
-- Play / Pause / Stop
-- Перемотка на ±10 секунд
-- Громкость
-- Прогресс-бар с таймкодами
-- Повтор трека
-- Перемешивание
-- Полный экран по F11
-- Группировка файлов по расширению
-- Сканирование папки "Музыка" одной кнопкой
-- Настройки: уведомления, автозагрузка, папка по умолчанию, тема
-
-## Горячие клавиши
-
-| Клавиша | Действие |
-|:---:|:---|
-| Space | Play / Pause |
-| ← | назад 10 сек |
-| → | вперёд 10 сек |
-| F11 | полный экран |
+</div>
 
 ---
 
-## Установка
+## ✨ Возможности
 
-Качаешь установщик из Releases, запускаешь, готово.
+- 🎵 **Музыка и видео** — поддерживает MP3, WAV, OGG, FLAC, M4A, AAC, OPUS, MP4, MKV, WEBM, AVI, MOV
+- 📁 **Плейлисты** — создавай свои подборки, добавляй треки правой кнопкой
+- 🔐 **Аккаунты** — регистрация через Firebase, ник и данные сохраняются в облаке
+- 🎨 **Милый дизайн** — розовая тема, всё в едином стиле
+- ⚡ **Быстрый поиск** — автоматическое сканирование папки «Музыка»
+- 🎧 **Управление воспроизведением** — shuffle, repeat (плейлист / один трек), seek, громкость
+- 💾 **Сохранение позиции** — «Продолжить слушать» на главной
+- 🖱️ **ПКМ по треку** — добавить в плейлист, сохранить как, удалить, показать в проводнике
+- 🌙 **Тёмные скрытые треки** — удалил из библиотеки? Восстанови в настройках
+- 📊 **Статистика** — треки, плейлисты, видео, время в приложении, дата регистрации
+- 🔄 **Автозапуск** — опционально стартует вместе с системой
 
-Или из исходников:
+---
 
+## 🚀 Установка
+
+### Для пользователей
+
+1. Скачай **`FemPlayer Setup x.x.x.exe`** из [Releases](../../releases)
+2. Запусти установщик
+3. Выбери папку установки (по желанию)
+4. Готово! Ярлык появится на рабочем столе
+
+### Для разработчиков
+
+**Требования:**
+- Node.js **18+** (рекомендуется 20+)
+- npm
+
+**Запуск в dev-режиме:**
 ```bash
-git clone https://github.com/твой-ник/fem-player.git
-cd fem-player
 npm install
-npm start"# FemboyMusikPlayer-FMP-" 
-"# FemboyMusikPlayer-FMP-" 
+npm start
